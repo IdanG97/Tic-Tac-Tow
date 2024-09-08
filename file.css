@@ -36,15 +36,15 @@ h2 {
 
 .compMode input, .playerMode input {
     margin-right: 0.5rem;
-    accent-color: #0f5c8c; /* Customize the color of the radio button */
+    accent-color: #0f5c8c; 
 }
 
 .compMode {
-    color: #0f5c8c; /* Color for the 'Play against Computer' label */
+    color: #0f5c8c; 
 }
 
 .playerMode {
-    color: #f27a41; /* Color for the 'Play against Player' label */
+    color: #f27a41; 
 }
 
 
