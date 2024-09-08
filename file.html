@@ -2,39 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>CodePen - Tic Tac Toe</title>
-    <link rel="stylesheet" href="file.css">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="file.css" />
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Tick-Tac-Toe</title>
-        <link rel="stylesheet" href="file.css" />
-    </head>
-
-    <body>
-        <div class="container">
-            <h1>Tic-Tac-Toe</h1>
-            <div class="play-area">
-
-            </div>
-            <h2 id="winner"></h2>
-            <button onclick="reset_board()">RESET</button>
+        <!-- Game Mode Selection -->
+        <div>
+            <label class="compMode">
+                <input type="radio" name="game-mode" value="computer" checked>
+                Play against Computer
+            </label>
+            <label class="playerMode">
+                <input type="radio" name="game-mode" value="player">
+                Play against Player
+            </label>
         </div>
-        <script src="file.js"></script>
-    </body>
 
-    </html>
+        <div class="play-area"></div>
+
+        <h2 id="winner"></h2>
+
+        <button class="btn" onclick="reset_board()">RESET</button>
+    </div>
     <script src="file.js"></script>
-
 </body>
 
 </html>
