@@ -128,3 +128,4 @@ const reset_board = () => {
 
 // Initial render
 render_board();
+
